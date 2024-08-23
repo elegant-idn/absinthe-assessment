@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+* {
+  font-family: "Inter", sans-serif ;
+  font-optical-sizing: auto ;
+  font-weight: 400 ;
+  font-style: normal ;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif !important;
+  font-optical-sizing: auto !important;
+  font-weight: 400 ;
+  font-style: normal ;
+}
+
+
+.logo-gradient{
+    position: relative;
+    overflow: hidden;
+}
+
+.logo-gradient::before {
+    content: '';
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 8px; /*1*/
+  border: 1px solid transparent; /*2*/
+  background: linear-gradient(45deg,#27D17F,#FFFFFF) border-box; /*3*/
+  -webkit-mask: /*4*/
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+          mask-composite: exclude; /*5*/
+          
+}
+
+.absin-badge-gradient{
+    
+}
+
+.absin-badge-gradient::before {
+    content: '';
+    opacity: 0.05;
+    position: absolute;
+    top: 0;
+    left : 0;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 12px; /*1*/
+  border: 1px solid transparent; /*2*/
+  background: linear-gradient(45deg,#27D17F,#FFFFFF) border-box; /*3*/
+  -webkit-mask: /*4*/
+     linear-gradient(#fff 0 0) padding-box, 
+     linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor; /*5'*/
+          mask-composite: exclude; /*5*/
+          
+}
