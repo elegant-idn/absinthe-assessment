@@ -119,7 +119,7 @@ export default function LastActivities() {
                                 <Flex justify="between" align="center">
                                     <Flex gap="2" align="center">
                                         <span className="text-text-secondary-dark">{txId}</span>
-                                        <span className="text-text-secondary-dark">
+                                        <span className="text-text-secondary-dark cursor-pointer">
                                             <AppBadge variant={BadgeVariantType.DISABLED}>Copy</AppBadge>
                                         </span>
                                     </Flex>

@@ -27,7 +27,7 @@ export default function Header() {
 
             <div className="flex items-center gap-2">
             
-                <Button size="3" radius="full" className="font-inter !bg-elevation-2-dark !w-[112px] !text-text-secondary-dark !px-2 !py-2  !hidden md:!flex justify-center items-center !border !border-solid !border-primary-hover !text-sm !font-semibold !hover:text-primary-hover transition-all duration-200">How It Works</Button>
+                <Button size="3" radius="full" className="!cursor-pointer font-inter !bg-elevation-2-dark !w-[112px] !text-text-secondary-dark !px-2 !py-2  !hidden md:!flex justify-center items-center !border !border-solid !border-primary-hover !text-sm !font-semibold !hover:text-primary-hover transition-all duration-200">How It Works</Button>
 
                 <Button size="3" className="!px-[14px] !py-[10px] !rounded-xl  !bg-elevation-3-dark !flex !items-center !gap-2 !font-semibold !text-sm">
                     <Image width={0} height={0} alt="" src="/assets/Frame.svg" className="w-[18px] h-[18px] rounded-full text-text-primary-dark" />

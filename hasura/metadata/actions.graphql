@@ -1,0 +1,11 @@
+query GetLogs {
+  logs {
+    transaction_hash
+    decoded
+    address
+    block_number
+    block_timestamp
+    from
+    to
+  }
+}

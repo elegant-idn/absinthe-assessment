@@ -9,5 +9,5 @@ import {ReactNode} from "react";
 
 export default function HeaderButton({children, ...etcProps}: { children: ReactNode }) {
     return <Button
-        className="!bg-transparent h-9 px-3 py-3 text-text-primary-dark hover:text-primary-hover text-sm font-   bold font-inter">{children}</Button>
+        className="!bg-transparent !cursor-pointer h-9 px-3 py-3 text-text-primary-dark hover:text-primary-hover text-sm font-bold font-inter">{children}</Button>
 }

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import "Carousel.css";
 
 * {
   font-family: "Inter", sans-serif ;
